@@ -1,0 +1,194 @@
+.Card {
+  background-color: #fff;
+  border-radius: 24px;
+  width: 100%;
+  padding: 20px;
+  /* Added padding for spacing */
+  margin: 20px 0;
+  /* Added margin for spacing */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Added shadow for depth */
+}
+
+.Card h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  /* Adjusted margin */
+}
+
+.Card hr {
+  width: 60px;
+  opacity: 1;
+  color: #5EE9B6;
+  border: 2px solid #5EE9B6;
+ }
+
+/* .Card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  /* Adjusted margin */
+ */
+
+.textwrapper {
+  color: #005CA6;
+  font-weight: 700;
+}
+
+.learn {
+  border-radius: 250px;
+  background: #5EE9B6;
+  color: #fff;
+  width: 114px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.learn.a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cardlist {
+  padding: 11%;
+}
+
+.cardlist p {
+  color: #000;
+}
+
+.heading {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  line-height: 1;
+  padding: 80px;
+}
+
+.Analytics {
+  color: #5EE9B6;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.tech {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  width: 80%;
+  height: 100%;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 2%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tech:hover {
+  background-color: #5EE9B6;
+  color: #005CA6;
+}
+
+.tech:hover h3 hr {
+  border: 2px solid #fff !important;
+}
+
+.tech h3 hr {
+  width: 20%;
+  border: 2px solid #5EE9B6;
+  opacity: 1;
+}
+
+.tech h3 {
+  text-align: left;
+  font-size: larger;
+}
+
+/* .cardsize
+{
+    padding: 16%;
+} */
+
+.row2 {
+  padding-top: 3%;
+}
+
+.lst {
+  padding-bottom: 6%;
+}
+
+.card-img {
+  height: 200px;
+  /* Set a fixed height */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover container */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .Card {
+    margin: 10px 0;
+    padding: 15px;
+    /* Adjusted padding */
+  }
+  .tech h3 {
+    text-align: center;
+    font-size: larger;
+    margin: 1rem;
+    align-items: center;
+}
+.tech h3 hr {
+  width: 20%;
+  border: 2px solid #5EE9B6;
+  opacity: 1;
+  margin-inline: auto;
+  /* text-align: center; */
+  /* align-items: center; */
+}
+  .Card h3 {
+    font-size: 20px;
+  }
+
+  .Card p {
+    font-size: 12px;
+  }
+  .Analytics {
+    color: #5EE9B6;
+    /* font-weight: 300; */
+    line-height: 1.5;
+    font-size: 30px;
+    margin: 4px;
+}
+
+  .heading {
+    /* text-align: center; */
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    padding: 21px;
+  }
+
+  .learn {
+    width: 100px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1400px;
+  }
+}

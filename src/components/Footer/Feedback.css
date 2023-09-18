@@ -1,0 +1,135 @@
+/* Styles for your feedback section */
+.footermain {
+  margin-bottom: 10%;
+  margin-top: 8%;
+  position: relative;
+}
+
+.feedheading {
+  text-align: center;
+  padding: 51px;
+}
+
+.feedheading h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 6%;
+}
+
+.Form-img {
+  width: 500px;
+  height: 350px;
+  flex-shrink: 0;
+}
+
+.text-left span {
+  font-size: 12px;
+  color: black;
+  font-weight: bolder;
+}
+
+.form {
+  color: #fff;
+}
+
+.iconslide.icon1 {
+  width: 100px;
+}
+
+.formtext {
+  padding: 10px;
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #4279ca;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.btn1 {
+  border-radius: 12px;
+  background: #5ee9b6;
+  width: 130px;
+  color: #005ca6;
+  text-align: center;
+}
+
+.btnicon {
+  margin-left: 15%;
+}
+
+.flash-card figure {
+  margin: 0;
+}
+
+.flash-card figure img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Cardslider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-bottom: 4rem;
+}
+
+.Cardslider .cardslider-body {
+  color: #005ca6;
+  margin: 0.30rem;
+  background: #fff;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.cardslider-body p {
+  text-align: left;
+}
+
+.Cardslider h3 {
+  color: #005ca6;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 850px) {
+  .Form-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .feedheading {
+    padding: 20px;
+  }
+
+  .feedheading h1 {
+    font-size: 30px;
+  }
+
+  .Cardslider {
+    flex-direction: column;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 600px) {
+  .Form-img {
+    width: -webkit-fill-available;
+    height: auto;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .Form-img {
+    width: 335px;
+    height: 400px;
+    flex-shrink: 0;
+}
+}

@@ -1,0 +1,167 @@
+
+/* 
+.banner-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.banner-image {
+    max-width: 100%;
+    background-size: cover;
+    height: 627px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    width: 36%;
+    left: 8%;
+    color: white;
+    padding-bottom: 22%;
+    top: 30%;
+}
+
+.cloud-computing {
+    font-size: 24px;
+}
+
+.text-wrapper,
+.span {
+    color: #5EE9B6;
+    font-weight: 900;
+}
+
+.span {
+    color: #fff;
+}
+
+.text {
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.learn-more-text {
+    margin-right: 8px;
+}
+
+.btn2 {
+    border-radius: 9px;
+    background: #5EE9B6;
+    color: #005CA6;
+    width: 100%;
+    max-width: 250px;
+    height: 41px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .overlay {
+        background-repeat: no-repeat;
+        padding: 10px;
+        height: auto;
+    }
+
+    .cloud-computing {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 17px;
+    }
+
+    .btn2 {
+        font-size: 14px;
+        height: 38px;
+    }
+} */
+
+/* Base styles for all screen sizes */
+
+.banner-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.banner-image {
+  height: 627px;
+  width: 100%;
+  background-size: cover; /* Maintain aspect ratio and cover container */
+  background-position: center; /* Center the image within the container */
+}
+
+/* Overlay styles */
+.overlay {
+  position: absolute;
+  width: 36%;
+  left: 8%;
+  color: white;
+  padding-bottom: 22%;
+  top: 30%;
+}
+
+/* Text styles */
+.cloud-computing {
+  font-size: 24px;
+}
+
+.text-wrapper,
+.span {
+  color: #5EE9B6;
+  font-weight: 900;
+}
+
+.span {
+  color: #fff;
+}
+
+.text {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+/* Button styles */
+.learn-more-text {
+  margin-right: 8px;
+}
+
+.btn2 {
+  border-radius: 9px;
+  background: #5EE9B6;
+  color: #005CA6;
+  width: 100%;
+  max-width: 250px;
+  height: 41px;
+  font-size: 16px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .overlay {
+    width: auto;
+    padding: 0px 54px 0px 40px;
+    font-size: xx-large;
+    left: 10px;
+    top: 18%;
+}
+  .cloud-computing {
+    font-size: 20px;
+  }
+
+  .banner-image {
+    /* width: 100%; */
+    max-height: 400px;
+    object-fit: none;
+    /* object-position: center; */
+}
+
+  .text {
+    font-size: 14px;
+  }
+
+  .btn2 {
+    font-size: 12px;
+  }
+}

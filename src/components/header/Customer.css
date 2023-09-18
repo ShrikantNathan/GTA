@@ -1,0 +1,124 @@
+/* Reset and general styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* .Cust styles */
+.Cust {
+    background: linear-gradient(180deg, #000002 0%, #005CA6 100%);
+
+}
+
+.Cust h1 {
+    padding-top: 5%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+.para {
+    color: lightgray;
+    text-align: center;
+    font-size: small;
+}
+
+.Cust hr {
+    margin-top: 10%;
+    width: 90%;
+    height: 5px;
+    color: #fff;
+}
+
+.year {
+    color: #5EE9B6;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px;
+    margin-right: 1rem;
+}
+
+.sc {
+    color: #FFF;
+    font-size: 15px;
+}
+
+.count {
+    color: #FFF;
+    font-size: 15px;
+}
+
+.image {
+    height: 5px;
+    border: 0px none;
+    text-align: center;
+}
+
+.image .tab-girl-img {
+    float: right;
+    margin-top: -10%;
+}
+
+.image .robot-hand-icon {
+    float: right;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+
+@media (min-width:1024px) and (max-width:600px) {
+    .image .robot-hand-icon {
+        float: right;
+        padding-top: 3%;
+        margin-left: -14%;
+        margin-top: 15%;
+    }
+}
+
+
+@media only screen and (max-width: 959px) {
+    .Cust h1 {
+        font-size: 30px;
+    }
+
+    .year {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .sc,
+    .count {
+        font-size: 12px;
+    }
+
+    .image .tab-girl-img {
+        width: 42%;
+    height: auto;
+    }
+
+    .image .robot-hand-icon {
+        float: right;
+        width: 14%;
+        height: auto;
+    }
+
+    .Cust h1 {
+        font-weight: 700;
+        font-size: 30px;
+        padding: 11%;
+    }
+
+}
+
+@media (min-width : 820px) and (max-width:1180px) {
+
+    .image .tab-girl-img {
+        margin-top: -8%;
+        width: 34%;
+        height: auto;
+        padding-right: 44px;
+        padding: 0;
+    }
+}

@@ -1,0 +1,310 @@
+.Cloud {
+    background-image: url("../../assest/cloud.png");
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    height: 393px;
+}
+.market-head {
+    background-image: url("../../assest/Marketimg.png");
+    background-size: cover;
+    height: 400px;
+}
+.spancloud {
+    text-align: center;
+    color: #fff;
+}
+.spancloudmarket {
+    text-align: center;
+    color: #fff;
+    padding: 16%;
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+}
+.p-10 {
+    padding: 2rem;
+}
+.imagecloud {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 52%;
+}
+.imagecloud .img {
+    width: 100%;
+}
+.cloud-image {
+    background: linear-gradient(180deg, #031423 16.67%, #005CA6 100%) !important;
+    padding-bottom: 9%;
+}
+.datascience {
+    color: #FFF;
+    font-size: 25px;
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 7%;
+}
+.cloudp {
+    color: #FFF;
+    font-size: 25px;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 7%;
+    padding-top: 13%;
+}
+.responsive-card {
+    border-radius: 27px;
+    padding: 30px;
+    text-align: start;
+    display: flex;
+    margin: 0 0 0 22%;
+    overflow: hidden;
+    width: 800px;
+    color: #FFF;
+    background: linear-gradient(180deg, rgba(0, 92, 166, 0.60) 22.92%, rgba(65, 148, 215, 0.60) 100%) !important;
+}
+.card-content {
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.market {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 19px 59px 94px 107px;
+    background: linear-gradient(180deg, #031423 16.67%, #005CA6 100%) !important;
+}
+
+.Success {
+    color: #fff;
+    font-size: 25px;
+    padding: 19px 334px 94px 107px;
+    background: linear-gradient(180deg, #031423 16.67%, #005CA6 100%) !important;
+}
+.Rectangle {
+    width: 820px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 250px;
+}
+.rectanglepara {
+    color: #fff;
+    font-size: large;
+    text-align: start;
+}
+.market p {
+    margin-top: 46px;
+    margin-bottom: 5%;
+}
+.cloudcard {
+    margin-bottom: 10%;
+}
+
+.vectorimg {
+    position: absolute;
+    left: 230px;
+}
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+    .imagecloud {
+        top: 34%;
+    }
+}
+@media (max-width:950px) 
+{
+    .imagecloud {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 23%;
+    }    
+    
+}
+@media (max-width:768px) and (max-width:1024px)
+{
+    .imagecloud {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 23%;
+    }    
+}
+@media (max-width: 360px) and (max-width :740px)
+{
+    .imagecloud img, svg {
+        vertical-align: middle;
+        max-width: -webkit-fill-available;
+        padding: 27px;
+        position: absolute;
+        left: 6%;
+        top: 43%;
+    }
+}
+/* Media queries for responsiveness */
+/* @media (max-width: 912px) and (max-width: 1368px) {
+    .responsive-card {
+        border-radius: 27px;
+        padding: 30px;
+        text-align: start;
+        display: flex;
+        margin: 0;
+        overflow: hidden;
+        width: 800px;
+        color: #FFF;
+        background: linear-gradient(180deg, rgba(0, 92, 166, 0.60) 22.92%, rgba(65, 148, 215, 0.60) 100%) !important;
+    }
+} */
+@media (max-width : 540px) and (max-width:720px)
+{
+    .imagecloud {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 11%;
+    }
+}
+@media (max-width: 750px) {
+    .imagecloud {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 38%;
+    }
+    .cloudp {
+        padding-top: 45%;
+    }
+    .imagecloud img, svg {
+        vertical-align: middle;
+        max-width: -webkit-fill-available;
+        padding: 27px;
+        /* margin-top: 36%; */
+    }
+
+    /* .cloudp {
+
+        padding-top: 100%;
+    } */
+
+    .market-head {
+        height: 300px;
+    }
+
+    .spancloudmarket {
+        font-size: large;
+        padding: 28%;
+    }
+
+    .responsive-card {
+        width: 100%;
+        padding: 15px;
+
+        margin-bottom: 21%;
+
+
+        border-radius: 27px;
+        /* padding: 30px; */
+        /* text-align: start; */
+        display: flex;
+        margin: 0;
+        /* overflow: hidden; */
+      
+        color: #FFF;
+        background: linear-gradient(180deg, rgba(0, 92, 166, 0.60) 22.92%, rgba(65, 148, 215, 0.60) 100%) !important;
+    }
+    .cloud-image {
+        background: linear-gradient(180deg, #031423 16.67%, #005CA6 100%) !important;
+        padding-bottom: 27%;
+        /* padding-top: 3%; */
+    }
+    .Marketimage {
+
+        width: 100%;
+        height: auto;
+
+    }
+
+    .datascience {
+        color: #FFF;
+        font-size: 25px;
+        padding-top: 10%;
+        text-align: center;
+        /* padding-bottom: 7%; */
+    }
+
+    .market,
+    .Success {
+        padding: 24px;
+        text-align: left;
+    }
+    .Rectangle {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+    .vectorimg {
+        left: 150px;
+    }
+}
+@media (min-width: 540px) {
+    .p-10 {
+        padding: 2rem;
+    }
+    .cloudp {
+        color: #FFF;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 15%;
+    }
+    .spancloudmarket {
+        font-size: x-large;
+        padding-top: 18%;
+    }
+}
+@media (min-width: 576px){
+.col-sm-6 {
+    flex: 0 0 auto;
+
+}
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+    .responsive-card {
+        border-radius: 27px;
+        padding: 30px;
+        text-align: start;
+        display: flex;
+        margin: 0 0 0 1%;
+        overflow: hidden;
+        width: 800px;
+        color: #FFF;
+        background: linear-gradient(180deg, rgba(0, 92, 166, 0.60) 22.92%, rgba(65, 148, 215, 0.60) 100%) !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .responsive-card {
+        border-radius: 27px;
+        padding: 56px;
+        text-align: start;
+        display: flex;
+        margin: 0 0 2% -5%;
+        overflow: hidden;
+        width: 800px;
+        color: #FFF;
+        background: linear-gradient(180deg, rgba(0, 92, 166, 0.60) 22.92%, rgba(65, 148, 215, 0.60) 100%) !important;
+    }
+}
+@media (min-width: 912px) and (max-width: 1368px) {
+    .responsive-card {
+        border-radius: 27px;
+        padding: 56px;
+        text-align: start;
+        display: flex;
+        margin: 0 0 0 20%;
+        overflow: hidden;
+        width: 800px;
+        color: #FFF;
+        background: linear-gradient(180deg, rgba(0, 92, 166, 0.60) 22.92%, rgba(65, 148, 215, 0.60) 100%) !important;
+    }
+}
