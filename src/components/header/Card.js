@@ -8,7 +8,7 @@ function Card() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://20.185.69.17:8000/cards/');
+        const response = await fetch('http://20.185.69.17:3000/cards/');
         const data = await response.json();
         setCards(data);
       } catch (error) {
