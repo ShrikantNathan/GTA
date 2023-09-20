@@ -9,7 +9,7 @@ const ImageGenerator = () => {
   const generateImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`http://20.185.69.17:3000/?text=${inputText}`);
+      const response = await fetch(`http://20.185.69.17:8000/?text=${inputText}`);
       const data = await response.json();
       const generatedImageUrl = data.imageUrl;
       setImageUrl(generatedImageUrl);
