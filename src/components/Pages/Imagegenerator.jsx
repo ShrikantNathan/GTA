@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ImageGenerator.css';
-import predefinedImage from '../../assets/predefined.jpg';
+import predefinedImage from '../../assest/predefined.jpg';
 
 const ImageGenerator = () => {
   const [imageUrl, setImageUrl] = useState(predefinedImage);
