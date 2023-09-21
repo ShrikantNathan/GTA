@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ImageGenerator.css';
-import predefinedImage from '../../assest/predefined.jpg';
+import predefinedImage from '../../assets/predefined.jpg';
 
 const ImageGenerator = () => {
   const [imageUrl, setImageUrl] = useState(predefinedImage);
@@ -28,7 +28,13 @@ const ImageGenerator = () => {
   return (
     <div className="image-generator-container">
       <div>
-        <img src={imageUrl} alt="Generated" className="generated-image" />
+        <img
+          src={imageUrl}
+          alt="Generated"
+          className="generated-image"
+          onLoad={() => console.log('Image loaded successfully')}
+          onError={(e) => console.error('Error loading image:', e)}
+        />
       </div>
       <div>
         <input
