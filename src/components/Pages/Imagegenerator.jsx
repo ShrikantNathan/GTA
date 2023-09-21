@@ -1,22 +1,20 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import './ImageGenerator.css';
-import predefinedImage from '../../assest/predefined.jpg';
+import predefinedImage from '../../assets/predefined.jpg';
 
 const ImageGenerator = () => {
   const [imageUrl, setImageUrl] = useState(predefinedImage);
   const [inputText, setInputText] = useState('');
   const [loading, setLoading] = useState(false);
+
   const generateImage = async () => {
     setLoading(true);
     try {
       const response = await fetch("http://20.185.69.17:8000/gan/generate-image/", {
-    // Adding method type
-    method: "POST",
-    // Adding body or contents to send
-    body: JSON.stringify({"text": inputText}),
-    // Adding headers to the request
-    headers: {"Content-type": "application/json; charset=UTF-8"}
-})
+        method: "POST",
+        body: JSON.stringify({ "text": inputText }),
+        headers: { "Content-type": "application/json; charset=UTF-8" }
+      });
       const data = await response.json();
       const generatedImageUrl = data.imageUrl;
       setImageUrl(generatedImageUrl);
@@ -31,7 +29,7 @@ const ImageGenerator = () => {
     <div className="image-generator-container">
       <div>
         <img src={imageUrl} alt="Generated" className="generated-image" />
-      </div><br/>
+      </div>
       <div>
         <input
           type="text"
@@ -44,7 +42,7 @@ const ImageGenerator = () => {
         <button onClick={generateImage} disabled={loading}>
           {loading ? 'Generating...' : 'Generate Image'}
         </button>
-      </div>      
+      </div>
     </div>
   );
 };
