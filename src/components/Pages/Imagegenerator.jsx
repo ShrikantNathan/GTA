@@ -9,7 +9,14 @@ const ImageGenerator = () => {
   const generateImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`http://20.185.69.17:8000/?text=${inputText}`);
+      const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
+    // Adding method type
+    method: "POST",
+    // Adding body or contents to send
+    body: JSON.stringify(inputText),
+    // Adding headers to the request
+    headers: {"Content-type": "application/json; charset=UTF-8"}
+})
       const data = await response.json();
       const generatedImageUrl = data.imageUrl;
       setImageUrl(generatedImageUrl);
