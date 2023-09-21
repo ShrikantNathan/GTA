@@ -9,7 +9,7 @@ const ImageGenerator = () => {
   const generateImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://20.185.69.17:8000/?text=${inputText}", {
+      const response = await fetch("http://20.185.69.17:8000/gan/generate-image/", {
     // Adding method type
     method: "POST",
     // Adding body or contents to send
