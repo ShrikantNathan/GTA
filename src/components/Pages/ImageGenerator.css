@@ -1,30 +1,25 @@
-/* src/ImageGenerator.css */
 
-/* Style for the container */
 .image-generator-container {
-    max-width: 800px; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add some spacing around the content */
-    text-align: center; /* Center-align text and elements */
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center; 
   }
   
-  /* Style for the input */
   input[type="text"] {
-    width: 100%; /* Make the input expand to fill the container width */
-    padding: 10px; /* Add padding for better touch input on mobile devices */
-    margin-bottom: 10px; /* Add spacing below the input */
+    width: 100%;   
+    padding: 10px; 
+    margin-bottom: 10px; 
   }
-  
-  /* Style for the button */
+   
   button {
-    background-color: #007bff; /* Set a background color */
-    color: #fff; /* Set text color to white */
-    padding: 7px 18px; /* Add padding for better touch input on mobile devices */
-    border: none; /* Remove the default button border */
-    cursor: pointer; /* Show a pointer cursor on hover */
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 7px 18px; 
+    border: none; 
+    cursor: pointer; 
   }
   
-  /* Style for the generated image */
   .generated-image {
   max-width: 100%;
   height: auto;
