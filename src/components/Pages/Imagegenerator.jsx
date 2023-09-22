@@ -21,7 +21,7 @@ const ImageGenerator = () => {
     } catch (error) {
       console.error('Error generating image:', error);
     } finally {
-      setLoading(false);
+      setLoading(true);
     }
   };
 
