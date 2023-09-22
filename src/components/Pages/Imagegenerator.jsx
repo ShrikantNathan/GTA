@@ -10,7 +10,7 @@ const ImageGenerator = () => {
   const generateImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch("https://20.185.69.17:8000/gan/generate-image/", {
+      const response = await fetch("http://20.185.69.17:8000/gan/generate-image/", {
         method: "POST",
         body: JSON.stringify({ "text": inputText }),
         headers: { "Content-type": "application/json; charset=UTF-8" }
