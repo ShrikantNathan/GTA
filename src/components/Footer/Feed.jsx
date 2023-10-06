@@ -37,7 +37,7 @@ export class Feed extends Component {
 		const { name, LastName, email, Cname, number, message,SelectService } = this.state;
 
 		try {
-			const response = await fetch('http://40.112.58.27:3002/raise-query/', {
+			const response = await fetch('http://20.121.114.90:8000/raise-query/', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
