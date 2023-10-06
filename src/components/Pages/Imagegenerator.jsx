@@ -13,7 +13,7 @@ const ImageGenerator = () => {
       const response = await fetch(`http://20.121.114.90:8000/gan/generate-image/`, {method: "POST", body: JSON.stringify({"text": inputText})});
       const data = await response.text();
       
-      const dataUri = `data:image/jpeg;base64,${generatedImageUrl}`;
+      const dataUri = `data:image/jpeg;base64,${data}`;
       
       setImageUrl(dataUri);
     } catch (error) {
