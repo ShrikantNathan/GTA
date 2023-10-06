@@ -24,7 +24,7 @@ function Businessgoal() {
 
 function Company() {
     return(
-    <>
+    <div>
         <div className='market-head' >
             <h1 className='spancloudmarket'>Company Summary & Analysis of Business</h1>
         </div>
@@ -34,13 +34,13 @@ function Company() {
             </p>
             <GoToTop />
         </div>
-    </>
+    </div>
     )
 }
 
 function Services() {
     return(
-    <>
+    <div>
         <div className='market-head' >
             <h1 className='spancloudmarket'>Services & Human Resources Requirements</h1>
         </div>
@@ -70,13 +70,13 @@ function Services() {
                 </p>
                 <GoToTop />
         </div>
-    </>
+    </div>
     )
 }
 
 function Success() {
     return(
-    <>
+    <div>
         <div className='market-head' >
             <h1 className='spancloudmarket'>Keys to Success</h1>
         </div>
@@ -97,7 +97,7 @@ function Success() {
            </ul>
          <GoToTop />
         </div>
-    </>
+    </div>
     )
 }
 
