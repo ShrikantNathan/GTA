@@ -8,7 +8,7 @@ import GoToTop from './Top'
 
 function CloudComputing() {
     return (
-        <>
+        <div>
             <div className='Cloudmain'>
                 <div className='Cloud p-10'>
                     <h1 className='Analytics line-height mt-5'>Cloud Computing <span className="spancloud">and Engineering<br />
@@ -71,7 +71,7 @@ function CloudComputing() {
                 </div>
                 <GoToTop />
             </div>
-        </>
+        </div>
     )
 }
 

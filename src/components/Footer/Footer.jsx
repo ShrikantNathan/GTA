@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <>
+        <div>
             <footer className="footer">
                 <section className="footer-top">
                     <Container>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <hr></hr>
                 <CopyFooter />
             </footer>
-        </>
+        </div>
 
     );
 }

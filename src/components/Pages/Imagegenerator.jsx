@@ -10,32 +10,27 @@ const ImageGenerator = () => {
   const generateImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://20.185.69.17:8000/gan/generate-image/", {
-        method: "POST",
-        body: JSON.stringify({ "text": inputText }),
-        headers: { "Content-type": "application/json; charset=UTF-8" }
-      });
+      const response = await fetch(`http://20.185.69.17:8000/gan/generate-image/?text=${encodeURIComponent(inputText)}`);
       const data = await response.json();
       const generatedImageUrl = data.imageUrl;
       setImageUrl(generatedImageUrl);
     } catch (error) {
       console.error('Error generating image:', error);
     } finally {
-      setLoading(true);
+      setLoading(false);
     }
   };
 
   return (
     <div className="image-generator-container">
       <div>
-        <img
-          src={imageUrl}
-          alt="Generated"
-          className="generated-image"
-          onLoad={() => console.log('Image loaded successfully')}
-          onError={(e) => console.error('Error loading image:', e)}
-        />
+        {loading ? (
+          <div className="spinner"></div>
+        ) : (
+          <img src={imageUrl} alt="Generated" className="generated-image" />
+        )}
       </div>
+      <br />
       <div>
         <input
           type="text"

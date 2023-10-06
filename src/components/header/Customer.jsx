@@ -18,7 +18,7 @@ function Customer() {
    useEffect(() => {
       const fetchData = async () => {
          try {
-            const response = await fetch('http://20.185.69.17:8000/statistics/');
+            const response = await fetch('http://40.112.58.27:3002/statistics/');
             const data = await response.json();
             console.log(data)
             setStatistics(data[0]);

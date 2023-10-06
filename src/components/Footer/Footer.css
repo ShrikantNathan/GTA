@@ -1,8 +1,6 @@
-/* Footer.css */
 .footer {
     padding: 1rem;
     background: #002546;
-    /* padding-left: 5%; */
 }
 
 .footer-top {
@@ -61,10 +59,6 @@
 }
 
 @media (max-width: 768px) {
-    /* .footer {
-        padding-left: 2%;
-    } */
-
     .footer-wraper-01,
     .footer-wraper-02 {
         padding-left: 10%;

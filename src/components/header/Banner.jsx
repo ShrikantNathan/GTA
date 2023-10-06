@@ -10,7 +10,7 @@ export const Banner = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://20.185.69.17:8000/technology-main-banner/');
+        const response = await fetch('http://40.112.58.27:3002/technology-main-banner/');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

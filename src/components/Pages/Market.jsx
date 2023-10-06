@@ -7,7 +7,7 @@ import GoToTop from './Top'
 
 const Market = () => {
     return (
-        <>
+        <div>
             <div className='market-head' >
                 <h1 className='spancloudmarket'>The Market</h1>
             </div>
@@ -38,7 +38,7 @@ const Market = () => {
             </Container>
             <GoToTop />
             </div>
-        </>
+        </div>
     )
 }
 

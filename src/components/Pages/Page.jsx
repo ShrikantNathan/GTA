@@ -8,7 +8,7 @@ import GoToTop from './Top';
 
 function Businessgoal() {
     return(
-    <>
+    <div>
         <div className='market-head' >
             <h1 className='spancloudmarket'>Business Goals and Objective</h1>
         </div>
@@ -18,7 +18,7 @@ function Businessgoal() {
             </p>
             <GoToTop />
         </div>
-    </>
+    </div>
     )
 }
 

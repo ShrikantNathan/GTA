@@ -1,28 +1,52 @@
+/* src/ImageGenerator.css */
 
+/* Style for the container */
 .image-generator-container {
-    max-width: 800px; 
-    margin: 0 auto;
-    padding: 20px; 
-    text-align: center; 
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some spacing around the content */
+    text-align: center; /* Center-align text and elements */
   }
   
+  /* Style for the input */
   input[type="text"] {
-    width: 100%;   
-    padding: 10px; 
-    margin-bottom: 10px; 
+    width: 100%; /* Make the input expand to fill the container width */
+    padding: 10px; /* Add padding for better touch input on mobile devices */
+    margin-bottom: 10px; /* Add spacing below the input */
   }
-   
+  
+  /* Style for the button */
   button {
-    background-color: #007bff; 
-    color: #fff; 
-    padding: 7px 18px; 
-    border: none; 
-    cursor: pointer; 
+    background-color: #007bff; /* Set a background color */
+    color: #fff; /* Set text color to white */
+    padding: 7px 18px; /* Add padding for better touch input on mobile devices */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Show a pointer cursor on hover */
   }
   
+  /* Style for the generated image */
   .generated-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the aspect ratio of the image */
+    margin-top: 20px; /* Add spacing above the image */
+  }
+  /* Add this to your ImageGenerator.css file */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-  
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  color: #fff;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
