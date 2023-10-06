@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9eae0c30.css",
+    "main.js": "/static/js/main.be427338.js",
+    "static/media/Marketimg.png": "/static/media/Marketimg.1d899300f99c75313f1d.png",
+    "static/media/cloud.png": "/static/media/cloud.e93cc68c61d6080792df.png",
+    "static/media/predefined.jpg": "/static/media/predefined.150695f619be0ff93be4.jpg",
+    "static/media/Rectangle 2606.png": "/static/media/Rectangle 2606.fe13bfef082943ac5563.png",
+    "static/media/Rectangle 2605.png": "/static/media/Rectangle 2605.e750f2e894cecb298914.png",
+    "static/media/Form-img.png": "/static/media/Form-img.e03482d35960fd9d97d4.png",
+    "static/media/Tab-girl-img.png": "/static/media/Tab-girl-img.61fa1b6206574dd70d97.png",
+    "static/media/Cloud 1.png": "/static/media/Cloud 1.ca41011217d7fdac50e3.png",
+    "static/media/Robot-hand-icon.png": "/static/media/Robot-hand-icon.3414ead6e1cbb6a29765.png",
+    "static/media/Database-img.png": "/static/media/Database-img.7824bd4760fac0540995.png",
+    "static/media/Group134.png": "/static/media/Group134.b866dd2c60d79efa17a3.png",
+    "static/media/Vectorimg.png": "/static/media/Vectorimg.b0ba714a6e497a83cc59.png",
+    "index.html": "/index.html",
+    "static/media/Group 121.svg": "/static/media/Group 121.a8aabaaf74f32e099a94805827b0fdf1.svg",
+    "static/media/Group 139.svg": "/static/media/Group 139.af79c729f62c6b241a25b132b28db13a.svg",
+    "main.9eae0c30.css.map": "/static/css/main.9eae0c30.css.map",
+    "main.be427338.js.map": "/static/js/main.be427338.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eae0c30.css",
+    "static/js/main.be427338.js"
+  ]
+}
